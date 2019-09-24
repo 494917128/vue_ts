@@ -1,0 +1,176 @@
+* {
+	font-size: 100%;
+  user-select: none; }
+html, body {
+	margin: 0;
+  cursor: url(//cdn.shopify.com/s/files/1/0012/9056/7750/files/right_32x.png?v=1532605891) 10 0, auto; }
+table,table tr th, table tr td { 
+  border: 1px solid #000;
+  padding: 8px;
+  min-width: 40px; }
+table tr th { 
+  font-weight: bold; } 
+table { 
+  text-align: center; border-collapse: collapse; } 
+input, textarea, select {
+  font-size: 15px;
+  line-height: 15px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 11px 15px;
+  margin: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: 0;
+  box-sizing: border-box; }
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill { 
+  background: #fff !important; }
+input[type=checkbox] {
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: checkbox; }
+a, a:link, a:visited { 
+  color: #000000;
+  transition: color 100ms, border-color 100ms;
+  text-decoration: none; }
+a:hover { 
+  color: #4e4e4e; }
+.button, a.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  min-width: 0;
+  height: auto;
+  margin: 0;
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 11px 25px;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: content-box;
+  border-radius: 0;
+  transition: background-color 100ms, color 100ms, border-color 100ms;
+  display: inline-block; }
+.button:hover, a.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  background: #4e4e4e;
+  color: #FFFFFF;
+  border-color: #4e4e4e; }
+strong,.strong{
+  font-weight: bold;
+}
+
+
+.container { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px; }
+.content { 
+  flex: 1; }
+.content-title { 
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px 0;
+  color: #000000;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-weight: bold;
+  font-size: 16px; }
+.product-content { 
+  background: #fff;
+  width: 100%;
+  max-width: 1320px;
+  margin: -55px auto -30px;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+@media (max-width: 768px) { 
+  .product-content { 
+    padding: 50px 45px;
+    margin: -55px 0 -55px; } }
+@media (max-width: 480px) { 
+  .product-content { 
+    padding: 50px 45px;
+    margin: -55px 25px -30px; } }
+.main-content { 
+  max-width: 1080px;
+  width: 100%;
+  align-self: center;
+  padding-left: 40px;
+  padding-right: 40px; }
+@media only screen and (max-width: 767px) { 
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+
+  /*============================================================================
+  .btn
+==============================================================================*/
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 30px;
+  min-width: 215px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease !important; }
+.btn.btn_white {
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff; }
+.btn.btn_white:hover {
+  background: transparent;
+  color: #fff; }
+.btn.btn_black {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000; }
+.btn.btn_black:hover {
+  background: transparent;
+  color: #000; }
+
+
+  /*============================================================================
+  .swiper
+==============================================================================*/
+.swiper-pagination-bullet { 
+  margin: 0 5px; }
+
+
+.info-btn{
+  background-color: #66b6ff;
+  color: #fff;
+  border: 1px solid #66b6ff;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 28px;
+  line-height: 26px;
+  padding: 0 12px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.info-btn:hover {
+  color: #fff;
+  background-color: #118adb;
+  border-color: #118adb;
+}
+.danger-color{
+  font-weight: 700;
+  color: #e51c23;
+}
+.danger-bg{
+  background-color: #e51c23;
+  color: #fff;
+}

@@ -1,0 +1,52 @@
+  .content { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    max-width: 100%; }
+  .content .title { 
+    margin: 40px 0;
+    font-size: 24px;
+    text-align: center; }
+  .content .login { 
+    display: flex;
+    flex-direction: column; }
+  .content .login .login-input-view { 
+    margin-bottom: 20px; }
+  .content .login .login-input-view label { 
+    display: block;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 4px; }
+  .content .login .login-input-view .prompt { 
+    margin-bottom: -14px;
+    color: red; }
+  .content .login .login-input { 
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    width: 100%; }
+  .content .login .login-input input { 
+    flex: 1;
+    border:none; }
+  .content .login .login-input a{ 
+    padding-right: 20px;
+    padding-left: 10px; }
+
+  .content .login .login-input-view.prompt-show { 
+    color: red; }
+  .content .login .login-input-view.prompt-show .login-input { 
+    border-color: red; }
+
+
+
+  .submit { 
+    text-align:center;
+    margin-top: 10px; }
+  .submit input { 
+    width: 50%; }
+
+  .register { 
+    display: block;
+    margin: 10px 0;
+    color: #000000;
+    text-align: center; }

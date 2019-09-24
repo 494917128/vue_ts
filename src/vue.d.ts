@@ -1,8 +1,8 @@
-import Vue from 'vue'
+import Vue from 'vue';
+/// <reference path="./api.d.ts" />
+
 declare module 'vue/types/vue' {
   interface Vue {
-    $Modal: string
-    // $axios: AxiosInstance
-    $utils: object
+    $api: api.api
   }
 }
